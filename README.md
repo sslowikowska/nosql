@@ -8,10 +8,39 @@
     
 ♥ EDA<br><br>
 
-2a.<br><br>
+<b>2a</b>.<br><br>
 
-2b.<br><br>
+Do zaimportowania wybralam plik .json z ksiazkami i ich ocenami. 
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/24_zpsgerafsck.png"><br>
+...
 
-2d.<br><br>
+Import do bazy MongoDB wygladal nastepujaco:
+
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/7_zpsedq3zwvy.png">
+
+Zajelo to 0,631s
+<br><br>
+Zuzycie procesora i pamieci nie zmienilo sie znacznie. <br>
+
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/8_zpssgtrp1mt.png"><br>
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/9_zpsvm9niw1n.png"><br>
+
+Import do bazy PostgreSQL wygladal nastepujaco:<br>
+
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/21_zpsyzczlkaa.png"><br>
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/22_zpsg8nhyvql.png"><br>
+
+Rowniez w przypadku tej bazy zajelo to mniej niz 1 sekunde. Do zaimportowania pliku json do tejze bazy uzylam narzedzia <b>pgfutter</b> w wersji 0.3.2<br><br>
+
+
+<b>2b</b>.<br><br>
+
+Wprawdzie obie bazy podaly ilosc zaimportowanych rekordow juz przy importowaniu, ale zliczenie ich dla bazy MongoDB wygladalo tak:<br>
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/10_zpsf6n1qel9.png"><br><br>
+
+A dla PostgreSQL tak: <br>
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/23_zps4jwqnqk9.png"> <br><br>
+
+<b>2d</b>.<br><br>
 
 ♥ Aggregation Pipeline<br><br>
