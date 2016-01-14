@@ -6,7 +6,7 @@
     Wersja <b>MongoDB</b>: Windows 64-bit 2008plus 3.0.7<br>
     Wersja <b>PostgreSQL</b>: Windows 64-bit 9.4.5-1<br><br>
     
-♥ EDA<br><br>
+♥ EDA + GeoJSON<br><br>
 
 <b>2a</b>.<br><br>
 
@@ -46,5 +46,14 @@ Skrypt dla MongoDB:<br>
 <img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/25_zpsch34kol7.png"><br><br>
 
 <b>2d</b>.<br><br>
+
+Za pomoca geojson.io zaznaczylam obszar wojewodztwa pomorskiego i znajdujace sie w nim parki. Parki krajobrazowe oznaczone sa markerem czerwonym, a narodowe niebieskim.<br>
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/26_zpscreugqjw.png"><br>
+Przykladowy rekord:<br>
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/27_zpsixyqdxkn.png"><br><br>
+Import pliku geojson do bazy danych:<br>
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/17_zpszstlid0n.png"><br><br>
+Dodajemy geo-indeks do kolekcji <i>parki</i>:<br>
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/18_zpsy9t6ng70.png"><br><br>
 
 ♥ Aggregation Pipeline<br><br>
