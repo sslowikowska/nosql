@@ -41,6 +41,10 @@ Wprawdzie obie bazy podaly ilosc zaimportowanych rekordow juz przy importowaniu,
 A dla PostgreSQL tak: <br>
 <img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/23_zps4jwqnqk9.png"> <br><br>
 
+<b>2c</b>.<br><br>
+Skrypt dla MongoDB:<br>
+<img src="http://i1315.photobucket.com/albums/t589/incube91/nosql/25_zpsch34kol7.png"><br><br>
+
 <b>2d</b>.<br><br>
 
 ♥ Aggregation Pipeline<br><br>
